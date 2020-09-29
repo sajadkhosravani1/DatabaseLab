@@ -1,5 +1,5 @@
 # CREATE TABLE
-This experiment is asked from us to create corresponding table of the following relations :
+This experiment is asked from us to create corresponding tables of the following relations :
 
 
 `Author (AuthorID, AuthorFirstName , AuthorLastName )`
@@ -45,8 +45,8 @@ Change `BOOK_961120013` to your data base name.
  - Data type of price column is `MONEY`. 
 MySQL doesn't support MONEY data type (How ever Microsoft SQL Server does).
 Oftenly `DECIMAL(size, d)` is used for monetary fields in MySQL. where: 
- - - size represents the precision (total length of value including decimal places)
- - - d represents the number of digits after decimal point
+    - size represents the precision (total length of value including decimal places)
+    - d represents the number of digits after decimal point
 
 ### Executing the file
 Finally we need to execute the sql codes from file. by following command in bash:
@@ -130,6 +130,7 @@ Finally we want to check results from MySQL command line.
 First we have to open MySQL command line.
 If you don't know how to open MySQL command line check out
  [this page](https://dev.mysql.com/doc/refman/8.0/en/mysql.html).
+And then we use following commands to check each table features. 
 
 ### viewing tables
 ```sql
