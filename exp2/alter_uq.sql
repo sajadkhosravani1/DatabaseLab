@@ -1,0 +1,7 @@
+USE BOOK_961120013;
+
+ALTER TABLE Publisher
+ADD UNIQUE (PublisherName); 
+
+ALTER TABLE BookTitle
+ADD UNIQUE (Title); 

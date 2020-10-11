@@ -1,0 +1,19 @@
+USE BOOK_961120013;
+
+ALTER TABLE Publisher
+ADD PRIMARY KEY (PublisherID);
+
+ALTER TABLE BookTitle
+ADD PRIMARY KEY (ISBN_Number); 
+
+ALTER TABLE Author
+ADD PRIMARY KEY (AuthorID); 
+
+ALTER TABLE Category
+ADD PRIMARY KEY (CategoryID); 
+
+ALTER TABLE Book_Author
+ADD PRIMARY KEY (ISBN_Number, AuthorID);
+
+ALTER TABLE Book_Category
+ADD PRIMARY KEY (ISBN_Number, CategoryID);    

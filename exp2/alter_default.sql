@@ -1,0 +1,4 @@
+USE BOOK_961120013;
+
+ALTER TABLE BookTitle
+ALTER Date_of_Published SET DEFAULT '2010-1-10';
