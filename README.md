@@ -9,4 +9,5 @@ Note:
 Use [this page](https://www.digitalocean.com/community/tutorials/how-to-install-mysql-on-ubuntu-18-04).
 
 ## experiences
-- [experience 1](./exp1)
+- [experience 1](./exp1): Creating table
+- [experience 2](./exp2): Constraints and alter
