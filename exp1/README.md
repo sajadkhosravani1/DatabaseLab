@@ -1,4 +1,4 @@
-# CREATE TABLE
+# Experiment #1
 This experiment is asked from us to create corresponding tables of the following relations :
 
 

@@ -1,5 +1,9 @@
-# Adding constraints
-
+# Experiment #2
+In this experiment we are going to change tables structure in order to:
+- Set a specific set of columns as a table `primary key`.
+- Set one or more set of columns `uniq`.
+- Determine `default` value for columns.
+ 
 ## 1- Creating exp1 tables again without any constraints.
 
 Here I copied all from create-table queries in [exp1.sql](../exp1/exp1.sql) file to
