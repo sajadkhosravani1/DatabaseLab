@@ -99,7 +99,7 @@ BookTitle table so the constraint will be adjusted on all
 By the way since (unfortunately) MySQL doesn’t support range
 of values in wildcards, I used `RLIKE` instead `LIKE` statement which
 uses regex instead wildcard.
-The related query is stored in [exp3_3_A.sql](exp3_3.sql) file.
+The related query is stored in [exp3_3.sql](exp3_3.sql) file.
 
 ```sql
 ALTER TABLE BookTitle
