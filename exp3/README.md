@@ -115,9 +115,9 @@ ADD CHECK (Date_of_Published <= NOW());
 
 This part's related code is stored in [exp3_3.sql](exp3_3.sql) file.
 After deleting (or changing) records which are violating the new constraints, we
-execute the `exp3_4_A.sql` file: 
+execute the [exp3_3.sql](exp3_3.sql) file: 
 
 ```bash
-sudo mysql < 
+sudo mysql < exp3_3.sql 
 ```
 
