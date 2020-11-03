@@ -12,39 +12,38 @@ CREATE DATABASE BOOK_961120013;
 USE BOOK_961120013;
 
 CREATE TABLE Publisher(
-	PublisherID INT, 
-	PublisherName VARCHAR(50)
+	PublisherID INT NOT NULL, 
+	PublisherName VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE BookTitle(
-	ISBN_Number NCHAR(13),
-	Title VARCHAR(50),
-	PublisherID INT,
+	ISBN_Number NCHAR(13) NOT NULL ,
+	Title VARCHAR(50) NOT NULL,
+	PublisherID INT NOT NULL,
 	Date_of_Published DATETIME,
 	Pages INT,
 	Price DECIMAL(20,2), 
-	Comment VARCHAR(100)
-);
+	Comment VARCHAR(100));
 
 CREATE TABLE Author(
-	AuthorID INT,
-	AuthorFirstName VARCHAR(20), 
-	AuthorLastName VARCHAR(30) 
+	AuthorID INT NOT NULL,
+	AuthorFirstName VARCHAR(20) NOT NULL, 
+	AuthorLastName VARCHAR(30) NOT NULL
 );
 
 CREATE TABLE Category(
-	CategoryID INT,
-	CategoryDescription VARCHAR(50)
+	CategoryID INT NOT NULL,
+	CategoryDescription VARCHAR(50) NOT NULL
 );
 
 CREATE TABLE Book_Author(
-	ISBN_Number NCHAR(13),
-	AuthorID INT
+	ISBN_Number NCHAR(13) NOT NULL,
+	AuthorID INT NOT NULL
 );	
 
 CREATE TABLE Book_Category(
-	ISBN_Number NCHAR(13),
-	CategoryID INT
+	ISBN_Number NCHAR(13) NOT NULL,
+	CategoryID INT NOT NULL
 );
 
 ```
